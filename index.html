@@ -8,7 +8,6 @@
     <title>Welcome to KaKao Talk</title>
   </head>
   <body>
-      
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -31,9 +30,21 @@
       </p>
     </header>
 
-    <form id="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
+    <form action="friends.html" method="GET" id="login-form">
+      <input
+        required
+        name="username"
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input
+        required
+        minlength="8"
+        maxlength="12"
+        name="password"
+        type="password"
+        placeholder="Password"
+      />
       <input type="submit" value="Log In" />
       <a href="#">Find KaKao Account or Password</a>
     </form>
