@@ -6,7 +6,7 @@
   align-items: center;
 }
 .welcome-header__title {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-size: 25px;
 }
 .welcome-header__text {
@@ -43,6 +43,7 @@
 #login-form input[type="submit"] {
   background-color: var(--yellow);
   cursor: pointer;
+  /* cursor: not-allowed; or progress 등등 많음 */
   padding: 20px 0px;
   border-radius: 5px;
 }

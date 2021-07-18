@@ -1,0 +1,10 @@
+.badge-sm {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3.5px;
+  position: absolute;
+  left: 33px;
+}
+.find-badge {
+}
