@@ -2,9 +2,16 @@
   background-color: tomato;
   width: 6px;
   height: 6px;
-  border-radius: 3.5px;
+  border-radius: 50%;
   position: absolute;
   left: 33px;
 }
-.find-badge {
+.find-badge-sm {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: 20px;
 }
