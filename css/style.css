@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap");
 
 @import "reset.css";
 @import "variables.css";
@@ -22,15 +23,12 @@
 @import "screens/chat.css";
 body {
   color: #2e363e;
-  font-family: "Open Sans", sans-serif;
-
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Otomanopee One", sans-serif;
   /* no-mobile 시에 스크롤 불가 방지를위해 */
   margin: 0;
   height: 100%;
   overflow: hidden;
-  /* margin: 0;
-  height: 100%;
-  overflow: hidden; */
 }
 .main-screen {
   padding: 0px var(--horizontal-space);

@@ -26,6 +26,20 @@
   }
 }
 
+.screen-header__icons .fa-search:hover {
+  color: red;
+  cursor: pointer;
+}
+.screen-header__icons .fa-music:hover {
+  color: red;
+  cursor: pointer;
+}
+.screen-header__icons .fa-comment-dots:hover {
+  color: red;
+  cursor: pointer;
+}
+
 .screen-header__icons .fa-cog:hover {
+  color: red;
   animation: rotateCog 1.5s linear infinite;
 }

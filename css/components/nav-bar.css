@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #f9f9fa;
+  background-color: goldenrod;
   padding: 20px 50px;
   /* padding 신경쓰지말고 box사이즈 늘리지 말고 유지 */
   box-sizing: border-box;
