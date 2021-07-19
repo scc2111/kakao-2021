@@ -11,6 +11,8 @@
 @import "components/badge-sm.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+@import "components/rotate-mobile.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -21,6 +23,14 @@
 body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
+
+  /* no-mobile 시에 스크롤 불가 방지를위해 */
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  /* margin: 0;
+  height: 100%;
+  overflow: hidden; */
 }
 .main-screen {
   padding: 0px var(--horizontal-space);
