@@ -26,7 +26,25 @@
   }
 }
 
-.screen-header__icons .fa-search:hover {
+@keyframes headerIconAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateZ(30deg);
+  }
+  100% {
+    transform: rotateZ(-30deg);
+  }
+}
+
+.screen-header__icons i:hover {
+  color: red;
+  cursor: pointer;
+  animation: headerIconAnimation 0.3s linear;
+}
+
+/* .screen-header__icons .fa-search:hover {
   color: red;
   cursor: pointer;
 }
@@ -37,7 +55,7 @@
 .screen-header__icons .fa-comment-dots:hover {
   color: red;
   cursor: pointer;
-}
+} */
 
 .screen-header__icons .fa-cog:hover {
   color: red;

@@ -39,8 +39,27 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
+  cursor: pointer;
 }
+
+@keyframes suggestionAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateZ(30deg);
+  }
+  100% {
+    transform: rotateZ(-30deg);
+  }
+}
+
+.more-suggestions__icon-image:hover {
+  background-color: red;
+  animation: suggestionAnimation 0.2s linear;
+}
+
 .more-suggestions__icon-image i {
   font-size: 32px;
-  color: white;
+  color: black;
 }

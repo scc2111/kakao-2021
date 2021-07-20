@@ -9,7 +9,11 @@
 }
 .icon-row__icon i {
   font-size: 35px;
+  cursor: pointer;
 }
 .icon-row__icon span {
   margin-top: 18px;
+}
+.icon-row__icon > i:hover {
+  color: red;
 }

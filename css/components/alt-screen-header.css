@@ -28,3 +28,21 @@
 .alt-header__column span:last-child {
   margin-left: 20px;
 }
+
+@keyframes settingSearchAni {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateZ(30deg);
+  }
+  100% {
+    transform: rotateZ(-30deg);
+  }
+}
+
+.alt-header__column i:hover {
+  color: red;
+  cursor: pointer;
+  animation: settingSearchAni 0.3s linear;
+}
